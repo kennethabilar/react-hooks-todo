@@ -1,8 +1,23 @@
 .App {
-  text-align: center;
+  max-width: 64%;
+  margin: 0 auto;
 }
 
-.App-logo {
+.todo {
+  border-bottom: 1px solid #efefef;
+  padding: 6px 10px;
+}
+
+.del-btn {
+  background-color: red;
+  border: 0;
+  border-radius: 50%;
+  padding: 4px 8px;
+  float: right;
+  cursor: pointer;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
